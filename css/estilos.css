@@ -1,0 +1,80 @@
+body{
+    font-family: 'montserrat', sans-serif;
+}
+
+.btn-secondary{
+    background-color: #f73f1e;
+    border: solid 1px #f73f1e;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.imgen{
+    width: 300px;
+    height: 300px;
+}
+section{
+    background: rgb(76 169 138);
+    
+}
+.mensaje{
+    background: rgb(237, 234, 61);
+}
+label, th{
+    color: black;
+    font-weight: 600;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 40px;
+
+}
+.form-control {
+    border: solid 1px gray;
+    width: 100%;
+}
+textarea{
+    border: solid 1px gray;
+    width: 100%;
+    border-radius: 5px;
+}
+li {
+    margin-right: 10px;
+    display: inline;
+    list-style-type: none; 
+    color: black;
+}
+
+header{
+    background-color: #1c3a30;
+}
+.a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu_principal{
+    background-color: #9ca7a3;
+}
+.button-eliminar{
+    border-radius: 6px;
+    border: none 1px;
+    margin-left: 15px;
+    padding: 3px;
+    margin-bottom: 45px;
+    background-color: black;
+    color: white;
+}
+.p-descripcion {
+    margin: 10px;
+    color: beige;
+}
+.contenedor_cargar ,.contenedor_personajes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
