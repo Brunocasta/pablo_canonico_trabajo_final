@@ -13,7 +13,7 @@ body{
     height: 300px;
 }
 section{
-    background: rgb(76 169 138);
+    background: rgb(109 152 219);
     
 }
 .mensaje{
@@ -47,7 +47,7 @@ li {
 }
 
 header{
-    background-color: #1c3a30;
+    background-color: #273e50;
 }
 .a {
     color: rgb(255, 253, 253);
@@ -66,6 +66,15 @@ header{
     margin-bottom: 45px;
     background-color: black;
     color: white;
+}
+.button-estado{
+    border-radius: 6px;
+    border: none 1px;
+    margin-left: 15px;
+    padding: 3px;
+    margin-bottom: 45px;
+    background-color: rgb(218, 198, 90);
+    color: rgb(74, 74, 62);
 }
 .p-descripcion {
     margin: 10px;

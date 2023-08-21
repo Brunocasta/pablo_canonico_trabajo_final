@@ -1,8 +1,8 @@
 <?php
 include('conexion.php');
 
-if(isset($_REQUEST['id']))$id_registros=$_REQUEST['id'];
-$sql="DELETE from registros where id = $id_registros ";
+if(isset($_REQUEST['id']))$id = $_REQUEST['id'];
+$sql="DELETE from productos where id = $id ";
 
 mysqli_query($conexion_db,$sql);
 
